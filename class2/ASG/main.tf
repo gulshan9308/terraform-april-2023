@@ -25,7 +25,7 @@ module "asg" {
   desired_capacity          = 1
   wait_for_capacity_timeout = 0
   health_check_type         = "EC2"
-  availability_zones = ["us-east-2a","us-east-2b","us-east-2c"]
+  availability_zones = ["us-east-1a","us-east-1b","us-east-1c"]
 
 
   # Launch template
